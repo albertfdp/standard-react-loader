@@ -32,7 +32,12 @@
     "webpack": "^1.12.13"
   },
   "standard-react": {
-    "parser": "babel-eslint"
+    "parser": "babel-eslint",
+    "globals": [
+      "before",
+      "describe",
+      "it"
+    ]
   },
   "dependencies": {
     "loader-utils": "^0.2.12",

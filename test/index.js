@@ -37,5 +37,4 @@ describe('standard-react-loader', () => {
     expect(warnings[1], 'not to be undefined')
     expect(/props\svalidation/gm.test(warnings[1].warning), 'to be true')
   })
-
 })
